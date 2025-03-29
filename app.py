@@ -525,7 +525,7 @@ if st.button("Submit Survey"):
     score_df = pd.DataFrame.from_dict(section_scores, orient='index', columns=['Score'])
     st.table(score_df)
     st.write(f"**Total Score:** {total_score} out of 180")
-    # st.subheader("Career Pathway Recommendations")
+    st.subheader("You will receive Career Pathway Recommendations on 5th April 2025\nThank You!")
     # if recommendations:
     #     for rec in recommendations:
     #         st.write(f"- {rec}")
