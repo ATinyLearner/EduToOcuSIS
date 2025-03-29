@@ -531,5 +531,5 @@ if st.button("Submit Survey"):
     #         st.write(f"- {rec}")
     # else:
     #     st.write("No specific dominant pathway was identified. Consider exploring multiple fields based on your interests!")
-    # st.subheader("Visual Score Representation")
-    # st.bar_chart(score_df)
+    st.subheader("Visual Score Representation")
+    st.bar_chart(score_df)
