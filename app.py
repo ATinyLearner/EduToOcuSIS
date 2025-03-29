@@ -525,11 +525,11 @@ if st.button("Submit Survey"):
     score_df = pd.DataFrame.from_dict(section_scores, orient='index', columns=['Score'])
     st.table(score_df)
     st.write(f"**Total Score:** {total_score} out of 180")
-    st.subheader("Career Pathway Recommendations")
-    if recommendations:
-        for rec in recommendations:
-            st.write(f"- {rec}")
-    else:
-        st.write("No specific dominant pathway was identified. Consider exploring multiple fields based on your interests!")
-    st.subheader("Visual Score Representation")
-    st.bar_chart(score_df)
+    # st.subheader("Career Pathway Recommendations")
+    # if recommendations:
+    #     for rec in recommendations:
+    #         st.write(f"- {rec}")
+    # else:
+    #     st.write("No specific dominant pathway was identified. Consider exploring multiple fields based on your interests!")
+    # st.subheader("Visual Score Representation")
+    # st.bar_chart(score_df)
